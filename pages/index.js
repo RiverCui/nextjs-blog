@@ -43,3 +43,11 @@ export async function getStaticProps() {
     props: { allPostsData },
   };
 }
+
+export async function getServerSideProps(context) {
+  return {
+    props: {
+      // props for your components
+    }
+  }
+}
