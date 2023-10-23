@@ -17,8 +17,8 @@ export async function getStaticPaths() {
   const paths = getAllPostsIds();
   return {
     paths,
-    // fallback: false,
-    fallback: true,
+    fallback: false,
+    // fallback: true,
   }
 }
 
